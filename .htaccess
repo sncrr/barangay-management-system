@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Rewrite all requests under /admin/ to /pages/admin/
+RewriteRule ^admin(.*)$ /pages/admin/$1 [L]
+
+# Allow access to specific folders and files (including index.php)
+RewriteRule ^(pages|js|styles|index.php|otherfile.php) - [L]
+
+# Allow access to the root directory (localhost/)
+RewriteRule ^$ - [L]
+
+# Block all other folders and files
+RewriteRule ^.*$ - [F,L]

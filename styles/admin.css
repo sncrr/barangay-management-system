@@ -1,0 +1,55 @@
+.wrapper {
+    padding: 1rem;
+    padding-left: 21rem;
+}
+
+.page-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 4px solid var(--secondary-color);
+}
+
+.content {
+    padding: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    padding: 1rem;
+}
+
+.card-content {
+    border: 1px solid var(--primary-color);
+    display: flex;
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    box-shadow: 0px 5px 10px #00000022;
+}
+
+.card-icon {
+    font-size: 4rem;
+}
+
+.card-label {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form .control {
+    padding: 1rem;
+}

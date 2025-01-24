@@ -1,0 +1,52 @@
+
+.auth {
+    box-shadow: 0px 5px 20px #00000025;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.auth .panel {
+    width: 30rem;
+    padding: 2rem;
+    height: 30rem;
+}
+
+.auth .panel.left {
+    background-color: var(--primary-color);
+    border-radius: 1rem 0 0 1rem;
+}
+
+.auth .panel.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth .title {
+    font-weight: bold;
+}
+
+.auth .control {
+    margin: 1rem 0;
+}
+.auth .control label{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.auth .control input {
+    background-color: #00000025;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+    padding: 0 1rem;
+    height: 3rem;
+    width: 24rem;
+    font-size: 1.25rem;
+}
+
+.auth .control .submit {
+    height: 3rem;
+    width: 24rem;
+}

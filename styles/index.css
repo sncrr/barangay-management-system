@@ -1,0 +1,28 @@
+@import url('form.css');
+
+
+*, html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #EFB036;
+    --secondary-color: #3B6790;
+    --accent-color: #23486A;
+    --tint-color: hsl(195, 29%, 42%);
+}
+
+.full {
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.center-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
