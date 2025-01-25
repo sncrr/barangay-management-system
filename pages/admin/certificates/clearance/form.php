@@ -4,19 +4,15 @@ $pageTitle = 'Barangay Clearance Form';
 if (isset($additionalCss)) {
     array_push(
         $additionalCss,
-        '/styles/form.css'
+        '/styles/admin/form.css'
     );
 } else {
     $additionalCss = [
-        '/styles/form.css'
+        '/styles/admin/form.css'
     ];
 }
 include $_SERVER['DOCUMENT_ROOT'] . '/layouts/admin.php';
 ?>
-
-<head>
-    <title>Barangay Clearance</title>
-</head>
 
 <div class="wrapper">
     <div class="page-title">

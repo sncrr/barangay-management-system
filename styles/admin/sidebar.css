@@ -31,12 +31,12 @@
 .sidebar .nav-link {
     display: flex;
     align-items: center;
-    color: var(--tint-color);
+    color: var(--neutral-color);
     text-decoration: none;
 }
 
 .sidebar .nav-item.active .nav-link{
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .sidebar .nav-icon {

@@ -2,10 +2,6 @@
 include $_SERVER['DOCUMENT_ROOT'] . '/layouts/admin.php';
 ?>
 
-<head>
-    <title>Barangay Clearance</title>
-</head>
-
 <div class="wrapper">
     <div class="page-title">
         Barangay Clearance
